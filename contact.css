@@ -1,0 +1,215 @@
+.contact{
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+.contact1 {
+    width: 80vw;
+    height: max(75vh, 500px);
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left {
+    width: 80%;
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+.left form {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.left form input{
+    background-color: #444444;
+    border: none;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.left form input::placeholder{
+    color: var(--txtcolor);
+    opacity: 0.4;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 1.2em;
+    text-wrap: wrap;
+}
+#Message{
+    background-color: #444444;
+    border: none;
+    position: relative;
+    font-size: 1.2em;
+}
+
+#Message::placeholder{
+    color: var(--txtcolor);
+    opacity: 0.4;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 1.2em;
+    text-wrap: wrap;
+}
+
+#Name{
+    width: 80%;
+    height: 40px;
+}
+#Email{
+    width: 80%;
+    height: 40px;
+}
+#Phone{
+    width: 80%;
+    height: 40px;
+}
+#Message{
+    width: 80%;
+    height: 35%;
+}
+
+#resume2{
+    border-radius: 15px;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#submit{
+    background-color: rgb(91, 91, 211);
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.right {
+    width: 80%;
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.right h1{
+    font-size: 3em;
+    margin-left: 25px;
+    color: rgb(183, 182, 182);
+
+}
+.right h2{
+    margin-left: 25px;
+}
+
+.right p{
+    margin-left: 25px;
+}
+
+.socials{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+}
+
+.right .socials .icon img:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 1100px) {
+    .contact h1{
+        font-size: 2em;
+    }
+    .contact h2{
+        font-size: 1.5em;
+    }
+    .contact p{
+        font-size: 1em;
+    }
+    
+}
+
+
+@media only screen and (max-width : 750px) {
+    #resume2{
+        transform: scale(0.75);
+        margin: 10px;
+        font-size: 0.8em;
+    }
+    .contact1 {
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        gap: 40px;
+    }
+    .right{
+        gap: 15px;
+    }
+    #Message{
+        height: 150px;
+    }
+    #Message::placeholder{
+        font-size: 0.8em;
+    }
+    .left{
+        margin-top: 50px;
+    }
+
+    .left form{
+        height: 150%;
+    }
+    .left form input{
+        height: 50px;
+    }
+
+    .left form input::placeholder{
+        font-size: 0.8em;
+    }
+
+    #submit{
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact h1{
+        font-size: 1.8em;
+    }
+
+    .left{
+        width: 300px;
+    }
+    
+    #Message{
+        height: 150px;
+    }
+
+    .left form input{
+        width: 100%;
+        height: 35px;
+    }
+
+    #submit{
+        transform: scale(0.6);
+        height: 80px;
+        width: 150px;
+    }
+
+}
+
