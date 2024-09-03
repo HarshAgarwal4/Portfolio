@@ -95,7 +95,7 @@ function use() {
 use()
 
 passu.addEventListener('click', () => {
-    if (password.value == '1234') {
+    if (password.value == 'Ronaldo**100') {
         alert('Welcome Harsh')
         hidebox()
         check = false
