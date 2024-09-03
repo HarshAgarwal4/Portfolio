@@ -20,11 +20,11 @@
         <nav>
             <img src="assets/symbol.jpg" alt="symbol" class="symbol"">
             <ul>
-                <li><button id="homep">Home</a></li>
+                <li><button id="homep">Home</button></li>
                 <li><button id="aboutp">About</button></li>
-                <li><button id="skillp">Skills</a></li>
-                <li><button id="projectp">Projects</a></li>
-                <li><button id="contactp">Contact</a></li>
+                <li><button id="skillp">Skills</button></li>
+                <li><button id="projectp">Projects</button></li>
+                <li><button id="contactp">Contact</button></li>
             </ul>
             <button id="menu" onclick="showmenu()"><img src="assets/list.svg" alt="" class="media" id="symbol"></button>
         </nav>
@@ -32,8 +32,8 @@
             <ul>
                 <li><button id="homeee1">Home</button></li>
                 <li><button id="abouttt1">About</button></li>
-                <li><button id="skilll1">Skills</li>
-                <li><button id="projecttt1">Projects></li>
+                <li><button id="skilll1">Skills</button></li>
+                <li><button id="projecttt1">Projects</button></li>
                 <li><button id="contacttt1">Contact</button></li>
             </ul>
         </div>
@@ -48,14 +48,14 @@
                     </p>
                     <button class="resume"><a href="https://drive.google.com/file/d/1-1wcOlPj-Pvi_AB2KFNIFaJZ2NHqRb_4/view?usp=drivesdk">Resume</a></button>
                 </div>
-                <img src="assets/me1.jpg" alt="">
+                <img src="assets/me1.jpg" alt="" id="myimg">
             </div>
         </div>
     </header>
     <section class="aboutt" id="aboutt">
         <div class="Home abt">
             <div class="grid abtgrid">
-                <img src="assets/me4.jpg" alt="" id="abtimg">
+                <img src="assets/me2.jpg" alt="" id="abtimg">
                 <div class="about" id="mabout">
                     <h1 id="abth1">About me</h1>
                     <p id="abtp">I am an engineering student with a deep passion for web development. I excel in crafting dynamic and user-friendly websites, and I have a strong foundation in C programming. My commitment to continuous learning and enthusiasm for technology drive me to continually enhance my skills and embrace new challenges in the field of web development.
@@ -132,10 +132,10 @@
                     <p></p>
                 </div>
             </a>
-            <a target="_blank" href="https://harshagarwal4.github.io/Clock/">
+            <a target="_blank" href="https://harshagarwal4.github.io/Todo_List/">
                 <div class="pcard">
-                    <img src="assets/clock.jpg" alt="">
-                    <h2>Analog, Digital clock and Stopwatch</h2>
+                    <img src="assets/todo.jpg" alt="">
+                    <h2>Todo List</h2>
                     <p></p>
                 </div>
             </a>
@@ -154,12 +154,12 @@
                     <div class="icon"><a target="_blank" href="https://github.com/HarshAgarwal4"><img src="assets/github.svg" alt="g"></a></div>
                     <div class="icon"><a target="_blank" href="https://www.linkedin.com/in/harsh-agarwal-b19854276"><img src="assets/linkedin.svg" alt="l"></a></div>
                     <div class="icon"><a target="_blank" href="https://www.instagram.com/techgyaan_24?igsh=MXRmcnBpdTdmamRlNw=="><img src="assets/instagram.svg" alt="f"></a></div>
-                    <div class="icon"><a target="_blank" href="mailto:Agarwalh270@gmail.com"><img src="assets/gmail.svg" alt="m"></a></div>
+                    <div class="icon"><a target="_blank" href="mailto:Agarwalh485@gmail.com"><img src="assets/gmail.svg" alt="m"></a></div>
                 </div>
                 <button id="resume2" class="resume"><a href="https://drive.google.com/file/d/1-1wcOlPj-Pvi_AB2KFNIFaJZ2NHqRb_4/view?usp=drivesdk">Resume</a></button>
             </div>
             <div class="left">
-                <form action="https://script.google.com/macros/s/AKfycbzDE1dBPmVB4RmSEJegKSdbxt8tRM908pAtRWTSFlHUx6C7ElofjYh_t4VkTmTnY0sq/exec" method="post" id="form" onsubmit="submitForm(event)">
+                <form action="https://script.google.com/macros/s/AKfycbxUQuLC7J4BC8pMpDbYsuxS7vJqr6YfgBmMgMSuoHdUPKGASO1K6LE5r5Uzy-_LPMr-/exec" method="post" id="form" onsubmit="submitForm(event)">
                     <input type="text" name="name" placeholder="Enter your name" id="Name" required>
                     <input type="email" name="email" id="Email" placeholder="Enter your E-mail address" id="Email" required>
                     <input type="tel" name="phone" placeholder="Enter Your Mobile Number" id="Phone">
@@ -174,6 +174,15 @@
             copyright &copy Harsh Agarwal. All rights reserved
         </div>
     </footer>
+    <div class="password" id="passwordBox" style="display: none;">
+        <div>To inspect the page, enter the password:</div>
+        <input type="password" name="password" id="passwordinput" placeholder="Enter password" autofocus>
+        <div class="passBtn">
+            <button id="passu">Submit</button>
+            <button id="exit">Exit</button>
+            <button id="access">Request access</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
